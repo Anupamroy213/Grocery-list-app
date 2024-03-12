@@ -1,0 +1,117 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main_div{
+  /* border: 2px solid black; */
+  /* border-radius: 20px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 200px;
+  text-align: center;
+  width: 100%;
+  flex-direction: row;
+  height: 100vh;
+  background: #b3eeb3;
+}
+body{
+  background-color:  rgb(3, 117, 3);
+}
+.center_div{
+  /* border: 2px solid black; */
+  border-radius: 15px;
+  height: 80vh;
+  background-color: #6edb64;
+  width: 35%;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+h1{
+  color: white;
+  background: transparent;
+  background-color: rgb(60, 190, 60);
+  padding: 6px 0 2px 0;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  font-weight: 300;
+}
+input{
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  width: 60%;
+  border-bottom: 2px solid  rgb(0, 99, 0);
+  outline: none;
+}
+.btn1{
+  min-height: 40px;
+  width: 40px;
+  border-color: transparent;
+  color:white;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  background-color:rgb(60, 190, 60);
+}
+.btn2{
+  border-radius: 10%;
+  background-color: rgb(60, 190, 60);
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  height: 20px;
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn2:hover{
+  background-color: red;
+}
+.btn1:hover{
+  background-color: #20bf6b;
+}
+.todo_style{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.todo_style.fa-times{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#13688D;
+  border-radius: 50%;
+  margin: 0 15px 0 35px;
+ color: aliceblue;
+ box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.todo_style .fa-times:hover{
+  background-color: crimson;
+}
+.todo_style .fa-times:hover .list_style{
+  color: crimson;
+}
+ol{
+  margin-top: 30px;
+}
+ol li{
+  padding-left: 0px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  color: rgb(98, 102, 100);
+  text-transform: capitalize;
+}
